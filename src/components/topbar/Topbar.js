@@ -17,10 +17,19 @@ export default function Topbar() {
   return (
     <div className="top">
       <div className="topLeft">
-        <FaFacebookSquare className="topIcon" />
-        <AiFillTwitterCircle className="topIcon" />
-        <BsPinterest className="topIcon" />
-        <GrInstagram className="topIcon" />
+        <a href="https://www.facebook.com">
+          <FaFacebookSquare className="sidebarIcon" />
+        </a>
+
+        <a href="https://www.twitter.com">
+          <AiFillTwitterCircle className="sidebarIcon1" />
+        </a>
+        <a href="https://www.pinterest.com">
+          <BsPinterest className="sidebarIcon2" />
+        </a>
+        <a href="https://www.instagram.com">
+          <GrInstagram className="sidebarIcon3" />
+        </a>
       </div>
       <div className="topCenter">
         <ul className="topList">

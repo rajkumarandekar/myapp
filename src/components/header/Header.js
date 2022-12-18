@@ -1,5 +1,4 @@
 import "./header.css";
-
 export default function Header() {
   return (
     <div className="header">
@@ -10,7 +9,7 @@ export default function Header() {
       <img
         className="headerImg"
         src="https://wallpapercave.com/wp/wp2445644.jpg"
-        alt=""
+        alt="j"
       />
     </div>
   );

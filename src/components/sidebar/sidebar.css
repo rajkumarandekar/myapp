@@ -58,7 +58,28 @@
 }
 
 .sidebarIcon{
-    font-size: 16px;
+    font-size: 20px;
     margin-left: 10px;
     cursor: pointer;
+}
+
+.sidebarIcon1 {
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: blue;
+}
+
+.sidebarIcon2 {
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: red;
+}
+
+.sidebarIcon3 {
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: rgb(228, 64, 95);
 }

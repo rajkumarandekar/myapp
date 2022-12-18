@@ -47,10 +47,19 @@ export default function Sidebar() {
       <div className="sidebarItem">
         <span className="sidebarTitle">FOLLOW US</span>
         <div className="sidebarSocial">
-          <FaFacebookSquare className="sidebarIcon" />
-          <AiFillTwitterCircle className="sidebarIcon" />
-          <BsPinterest className="sidebarIcon" />
-          <GrInstagram className="sidebarIcon" />
+          <a href="https://www.facebook.com">
+            <FaFacebookSquare className="sidebarIcon" />
+          </a>
+
+          <a href="https://www.twitter.com">
+            <AiFillTwitterCircle className="sidebarIcon1" />
+          </a>
+          <a href="https://www.pinterest.com">
+            <BsPinterest className="sidebarIcon2" />
+          </a>
+          <a href="https://www.instagram.com">
+            <GrInstagram className="sidebarIcon3" />
+          </a>
         </div>
       </div>
     </div>
