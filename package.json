@@ -1,5 +1,5 @@
 {
-  "proxy": "http://localhost:9990/api/",
+  "proxy": "https://backend-blog-l0iz.onrender.com/api/",
   "name": "myapp",
   "version": "0.1.0",
   "private": true,

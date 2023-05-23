@@ -5,7 +5,9 @@ import Write from "./pages/write/Write";
 import Settings from "./pages/settings/Settings";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
+
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 import { useContext } from "react";
 import { Context } from "./context/Context";
 import Contact from "./pages/contact/Contact";
@@ -32,3 +34,10 @@ function App() {
 }
 
 export default App;
+/*
+
+Today design its go be desin part functional components and react rotary dom
+// for page links, we have pages like login page, register page, home page, our posts when i click them
+// its gonna load my single post and here we have a settings and creating new post page
+//
+*/
